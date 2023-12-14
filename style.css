@@ -1,0 +1,50 @@
+.gallery-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:5px;
+}
+.container h1{
+    text-align:center;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.gallery-container div img{
+    height:400px;
+    cursor:pointer;
+}
+.gallery-container div img:hover{
+    transform: scale(1.01);
+}
+
+.overall-img{
+   width:80%;
+   
+   /* height:100vh; */
+    text-align: center;
+
+}
+.img1{
+    position: absolute;
+    top:12%;
+   height:20px;
+    
+}
+.icon{
+    position:absolute;
+    top:10px;
+    font-size: 30px;
+    right:0px;
+ background-color: aliceblue;
+ padding:10px;
+ cursor: pointer;
+}
+.overLap{
+    opacity: 0.5;
+}
+.overlap1{
+    opacity: 1;
+}
+.img-size{
+    height:600px;
+}
